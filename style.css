@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color:black;
+    
+}
+
+.choices{
+    width: 190px;
+    background-color: cadetblue;
+    display: block;
+    position: absolute;
+}
+
+.choice:hover {
+    cursor: pointer;
+}
+
+.choice {
+    width: 180px;
+    color: rgb(243, 49, 185);
+    border: 2px solid black;
+    border-radius: 6px;
+    margin: 3px;
+    
+}
+
+.score {
+    border: 10px solid black;
+    font-size: medium;
+    position: relative;
+    margin-left: 20px;
+    width: 220px;
+    display: block;
+}
